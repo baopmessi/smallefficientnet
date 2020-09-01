@@ -469,7 +469,7 @@ def EfficientNetA(
         **kwargs
 ):
     return EfficientNet(
-        0.24, 0.32, 32, 0.1,
+        0.48, 0.68, 128, 0.2,
         model_name='efficientnet-a',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
